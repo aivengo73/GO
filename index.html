@@ -76,7 +76,123 @@
 
 	</ol>
 
+	<form id="my-form" action="https://jsonplaceholder.typicode.com/posts" method="post">
+		<fieldset>
+			<h2>Забронировать</h2>
+			<fieldset>
+				<label>
+					<input type="radio" name="reservation" value="80's vibes">80's vibes
+				</label>
 
+				<label>
+					<input type="radio" name="reservation" value="star wars">star wars
+				</label>
+				<label>
+					<input type="radio" name="reservation" value="wild west">wild west
+				</label>
+				<label>
+					<input type="radio" name="reservation" value="neon style">neon style
+				</label>
+			</fieldset>
+
+			<fieldset>
+				<legend>Собери набор развлечений</legend>
+
+				<fieldset>
+					<legend>Приставка:</legend>
+
+					<label>
+						<input type="radio" name="console" value="PlayStation">PlayStation
+					</label>
+
+					<label>
+						<input type="radio" name="console" value="Sega Mega Drive">Sega Mega Drive
+					</label>
+
+					<label>
+						<input type="radio" name="console" value="X-box One S">X-box One S
+					</label>
+
+					<label>
+						<input type="radio" name="console" value="Dendy">Dendy
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Настольные игры:</legend>
+
+					<label>
+						<input type="checkbox" name="table game" value="Jenga">Jenga
+					</label>
+
+					<label>
+						<input type="checkbox" name="table game" value="Monopoly">Monopoly
+					</label>
+
+					<label>
+						<input type="checkbox" name="table game" value="Манчкин">Манчкин
+					</label>
+
+					<label>
+						<input type="checkbox" name="table game" value="Alias">Alias
+					</label>
+				</fieldset>
+
+				<fieldset>
+					<legend>Дополнительно:</legend>
+
+					<label>
+						<input type="checkbox" name="extra" value="Караоке">Караоке
+					</label>
+
+					<label>
+						<input type="checkbox" name="extra" value="VR">VR
+					</label>
+				</fieldset>
+			</fieldset>
+
+			<fieldset>
+				<legend>Выбери дату и время</legend>
+
+				<label>Дата*
+					<input type="date" name="date" required>
+				</label>
+
+				<label>Время*
+					<input type="time" name="date" required>
+				</label><br>
+
+				<label>Колличество человек*
+					<input type="number" name="quantity of man" required min="1" max="30">
+				</label><br>
+
+				<label>Имя*
+					<input type="text" name="name" required placeholder="Введите Ваше имя">
+				</label><br>
+
+				<label>Фамилия*
+					<input type="text" name="surname" required placeholder="Введите Вашу фамилию">
+				</label><br>
+
+				<label>Номер телефона*
+					<input type="tel" name="tel">
+				</label><br>
+
+				<label>
+					<input type="checkbox" name="age limit" value="age limit">
+					Я старше 18 лет
+				</label>
+			</fieldset>
+
+			<button type="submit">Забронировать</button>
+
+			<label>
+				<input type="checkbox" name="computing" value="computing">
+				Согласен на обработку данных
+			</label>
+
+		</fieldset>
+	</form>
 	<h2 id="two">О нас</h2>
 
 	<p>
