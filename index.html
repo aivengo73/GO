@@ -6,287 +6,291 @@
 	<meta http-equiv="X-UA-Compatible" content="IE=edge">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<link rel="icon" type="image/svg+xml" href="images/favicon.svg">
+	<link rel="stylesheet" href="css/style.css">
 	<title>GO</title>
 </head>
 
 <body>
+	<div class="wrapper">
 
-	<!--// =======================header================================-->
+		<!--// =======================header================================-->
 
-	<header>
-		<img src="images/logo.svg" alt="Логотип">
-		<h1>Меню</h1>
-		<nav>
-			<ul>
-				<li><a href="#halls">Залы</a></li>
-				<li><a href="#about">О нас</a></li>
-				<li><a href="#reserve">Бронь</a></li>
-				<li><a href="#reviews">Отзывы</a></li>
-				<li><a href="#contact">Контакты</a></li>
-			</ul>
-		</nav>
-	</header>
+		<header>
+			<img src="images/logo.svg" alt="Логотип">
+			<h1>Меню</h1>
+			<nav>
+				<ul>
+					<li><a href="#halls">Залы</a></li>
+					<li><a href="#about">О нас</a></li>
+					<li><a href="#reserve">Бронь</a></li>
+					<li><a href="#reviews">Отзывы</a></li>
+					<li><a href="#contact">Контакты</a></li>
+				</ul>
+			</nav>
+		</header>
 
-	<!-- // ========================= main ================================= -->
+		<!-- // ========================= main ================================= -->
 
-	<main>
+		<main>
 
-		<!-- !!               section  Всё для отдыха                        -->
+			<!-- !!               section  Всё для отдыха                        -->
 
 
-		<section>
-			<h2>У нас есть всё для классного отдыха с друзьями!</h2>
-			<ul>
-				<li>
-					<figure>
-						<img src="images/vr.jpg" height="228" alt="VR очки">
-						<figcaption>VR очки<br></figcaption>
-					</figure>
-				</li>
+			<section>
+				<h2>У нас есть всё для классного отдыха с друзьями!</h2>
+				<ul>
+					<li>
+						<figure>
+							<img src="images/vr.jpg" height="228" alt="VR очки">
+							<figcaption>VR очки<br></figcaption>
+						</figure>
+					</li>
 
-				<li>
-					<figure>
-						<img src="images/audio.jpg" height="228" alt="Аудио-система">
-						<figcaption>Аудио-система 5.1 с отличным звуком<br></figcaption>
-					</figure>
-				</li>
+					<li>
+						<figure>
+							<img src="images/audio.jpg" height="228" alt="Аудио-система">
+							<figcaption>Аудио-система 5.1 с отличным звуком<br></figcaption>
+						</figure>
+					</li>
 
-				<li>
-					<figure>
-						<img src="images/game.jpg" height="228" alt="Настольные игры">
-						<figcaption>Настольные игры<br></figcaption>
-					</figure>
-				</li>
+					<li>
+						<figure>
+							<img src="images/game.jpg" height="228" alt="Настольные игры">
+							<figcaption>Настольные игры<br></figcaption>
+						</figure>
+					</li>
 
-				<li>
-					<figure>
-						<img src="images/netflix.jpg" height="228" alt="Кино сервисы">
-						<figcaption>Кино сервисы Netfix, IVI, MegoGo, КиноПоиск, Okko<br></figcaption>
-					</figure>
-				</li>
+					<li>
+						<figure>
+							<img src="images/netflix.jpg" height="228" alt="Кино сервисы">
+							<figcaption>Кино сервисы Netfix, IVI, MegoGo, КиноПоиск, Okko<br></figcaption>
+						</figure>
+					</li>
 
-				<li>
-					<figure>
-						<img src="images/sony.jpg" height="228" alt="PlayStation 5">
-						<figcaption>PlayStation 5</figcaption>
-					</figure>
-				</li>
-			</ul>
-		</section>
+					<li>
+						<figure>
+							<img src="images/sony.jpg" height="228" alt="PlayStation 5">
+							<figcaption>PlayStation 5</figcaption>
+						</figure>
+					</li>
+				</ul>
+			</section>
 
-		<!-- !!                         section   Наши залы                           -->
+			<!-- !!                         section   Наши залы                           -->
 
-		<section>
-			<h2 id="halls">Наши залы</h2>
-			<ol>
-				<li>80's vibes</li>
-				<li>Star Wars</li>
-				<li>Wild West</li>
-				<li>Neon style</li>
-			</ol>
-		</section>
+			<section>
+				<h2 id="halls">Наши залы</h2>
+				<ol>
+					<li>80's vibes</li>
+					<li>Star Wars</li>
+					<li>Wild West</li>
+					<li>Neon style</li>
+				</ol>
+			</section>
 
-		<!-- !!                     section  Забронировать зал просто                     -->
+			<!-- !!                     section  Забронировать зал просто                     -->
 
-		<section>
-			<form id="reserve" action="https://jsonplaceholder.typicode.com/posts" method="post">
-				<fieldset>
-					<h2>Забронировать зал просто</h2>
-					<h3>Выбери зал</h3>
+			<section>
+				<form id="reserve" action="https://jsonplaceholder.typicode.com/posts" method="post">
 					<fieldset>
-						<label>
-							<input type="radio" name="reservation" value="80's vibes">80's vibes
-						</label>
+						<h2>Забронировать зал просто</h2>
+						<h3>Выбери зал</h3>
+						<fieldset>
+							<label>
+								<input type="radio" name="reservation" value="80's vibes">80's vibes
+							</label>
 
-						<label>
-							<input type="radio" name="reservation" value="star wars">star wars
-						</label>
-						<label>
-							<input type="radio" name="reservation" value="wild west">wild west
-						</label>
-						<label>
-							<input type="radio" name="reservation" value="neon style">neon style
-						</label>
+							<label>
+								<input type="radio" name="reservation" value="star wars">star wars
+							</label>
+							<label>
+								<input type="radio" name="reservation" value="wild west">wild west
+							</label>
+							<label>
+								<input type="radio" name="reservation" value="neon style">neon style
+							</label>
+						</fieldset>
+
+
+						<h4>Собери набор развлечений</h4>
+
+						<fieldset>
+							<legend>Приставка:</legend>
+
+							<label>
+								<input type="radio" name="console" value="PlayStation">PlayStation
+							</label>
+
+							<label>
+								<input type="radio" name="console" value="Sega Mega Drive">Sega Mega Drive
+							</label>
+
+							<label>
+								<input type="radio" name="console" value="X-box One S">X-box One S
+							</label>
+
+							<label>
+								<input type="radio" name="console" value="Dendy">Dendy
+							</label>
+						</fieldset>
+
+						<fieldset>
+							<legend>Настольные игры:</legend>
+
+							<label>
+								<input type="checkbox" name="table game" value="Jenga">Jenga
+							</label>
+
+							<label>
+								<input type="checkbox" name="table game" value="Monopoly">Monopoly
+							</label>
+
+							<label>
+								<input type="checkbox" name="table game" value="Манчкин">Манчкин
+							</label>
+
+							<label>
+								<input type="checkbox" name="table game" value="Alias">Alias
+							</label>
+						</fieldset>
+
+						<fieldset>
+							<legend>Дополнительно:</legend>
+
+							<label>
+								<input type="checkbox" name="extra" value="Караоке">Караоке
+							</label>
+
+							<label>
+								<input type="checkbox" name="extra" value="VR">VR
+							</label>
+						</fieldset>
 					</fieldset>
 
-
-					<h4>Собери набор развлечений</h4>
-
 					<fieldset>
-						<legend>Приставка:</legend>
+						<h4>Выбери дату и время</h4>
+						<fieldset>
+							<label>Дата*
+								<input type="date" name="date" required>
+							</label>
 
-						<label>
-							<input type="radio" name="console" value="PlayStation">PlayStation
-						</label>
+							<label>Время*
+								<input type="time" name="date" required>
+							</label><br>
+							<br>
+							<label>Сколько человек*
+								<input type="number" name="quantity of man" placeholder="" required min="1">
+							</label><br>
+							<br>
 
-						<label>
-							<input type="radio" name="console" value="Sega Mega Drive">Sega Mega Drive
-						</label>
+							<label>Имя*
+								<input type="text" name="name" required>
+							</label><br>
+							<br>
 
-						<label>
-							<input type="radio" name="console" value="X-box One S">X-box One S
-						</label>
+							<label>Фамилия*
+								<input type="text" name="surname" required placeholder="Введите Вашу фамилию">
+							</label><br>
+							<br>
+							<label>Телефон*
+								<input type="tel" name="phone" required placeholder="+7-___-___-__-__"
+									pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
+							</label><br><br>
+							<br>
 
-						<label>
-							<input type="radio" name="console" value="Dendy">Dendy
-						</label>
-					</fieldset>
+							<label>E-mail
+								<input type="email" name="login" placeholder="Введите ваш email">
+							</label><br>
 
-					<fieldset>
-						<legend>Настольные игры:</legend>
-
-						<label>
-							<input type="checkbox" name="table game" value="Jenga">Jenga
-						</label>
-
-						<label>
-							<input type="checkbox" name="table game" value="Monopoly">Monopoly
-						</label>
-
-						<label>
-							<input type="checkbox" name="table game" value="Манчкин">Манчкин
-						</label>
-
-						<label>
-							<input type="checkbox" name="table game" value="Alias">Alias
-						</label>
-					</fieldset>
-
-					<fieldset>
-						<legend>Дополнительно:</legend>
-
-						<label>
-							<input type="checkbox" name="extra" value="Караоке">Караоке
-						</label>
-
-						<label>
-							<input type="checkbox" name="extra" value="VR">VR
-						</label>
-					</fieldset>
-				</fieldset>
-
-				<fieldset>
-					<h4>Выбери дату и время</h4>
-					<fieldset>
-						<label>Дата*
-							<input type="date" name="date" required>
-						</label>
-
-						<label>Время*
-							<input type="time" name="date" required>
-						</label><br>
+						</fieldset>
 						<br>
-						<label>Сколько человек*
-							<input type="number" name="quantity of man" placeholder="" required min="1">
-						</label><br>
-						<br>
-
-						<label>Имя*
-							<input type="text" name="name" required>
-						</label><br>
-						<br>
-
-						<label>Фамилия*
-							<input type="text" name="surname" required placeholder="Введите Вашу фамилию">
-						</label><br>
-						<br>
-						<label>Телефон*
-							<input type="tel" name="phone" required placeholder="+7-___-___-__-__"
-								pattern="^\+?[7-8]-?[0-9]{3}-?[0-9]{3}-?[0-9]{2}-?[0-9]{2}$">
-						</label><br><br>
-						<br>
-
-						<label>E-mail
-							<input type="email" name="login" placeholder="Введите ваш email">
-						</label><br>
+						<button type="submit">Забронировать</button>
 
 					</fieldset>
 					<br>
-					<button type="submit">Забронировать</button>
-
-				</fieldset>
-				<br>
-			</form>
-		</section>
+				</form>
+			</section>
 
 
-		<!-- !!                        section   О нас                       -->
+			<!-- !!                        section   О нас                       -->
 
 
-		<section>
-			<h2 id="about">О нас</h2>
-			<p>
-				Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в центральной
-				части города. <br>
-				<br>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми
-				разработками со всего мира.
-			</p>
-			<blockquote>
+			<section>
+				<h2 id="about">О нас</h2>
 				<p>
-					<b>&laquo;GAME OVER</b> -это место незабываемых впечатлений&raquo;
+					Для наших гостей мы создали <i>концептуально новое игровое пространство виртуальной реальности</i> в
+					центральной
+					части города. <br>
+					<br>Каждый день мы стараемся создавать для вас самую лучшую игровую атмосферу и радовать Вас топовыми игровыми
+					разработками со всего мира.
 				</p>
-				<i>
-					Аркадий Абашкин, создатель игровой территории GAME OVER
-				</i>
-			</blockquote>
-		</section>
+				<blockquote>
+					<p>
+						<b>&laquo;GAME OVER</b> -это место незабываемых впечатлений&raquo;
+					</p>
+					<i>
+						Аркадий Абашкин, создатель игровой территории GAME OVER
+					</i>
+				</blockquote>
+			</section>
 
-		<!-- !!                              section Отзывы посетителей             -->
+			<!-- !!                              section Отзывы посетителей             -->
 
-		<section>
-			<br>
-			<h2 id="reviews">Отзывы посетителей</h2>
-			<br>
-			<figure>
-				<img src="images/photo_1.jpg" height="228" alt="Отзыв Максима Самойлова о посещении игрового зала">
-				<figcaption>Максим Самойлов</figcaption>
-			</figure>
-			<blockquote>Отмечали здесь день рождения с компанией друзей, всё было очень круто! <br>
-				VR очки это просто бомба, никогда ещё я не был в таком полном игровом погружении. <br>
-				Сервис на высоте!</blockquote>
+			<section>
+				<br>
+				<h2 id="reviews">Отзывы посетителей</h2>
+				<br>
+				<figure>
+					<img src="images/photo_1.jpg" height="228" alt="Отзыв Максима Самойлова о посещении игрового зала">
+					<figcaption>Максим Самойлов</figcaption>
+				</figure>
+				<blockquote>Отмечали здесь день рождения с компанией друзей, всё было очень круто! <br>
+					VR очки это просто бомба, никогда ещё я не был в таком полном игровом погружении. <br>
+					Сервис на высоте!</blockquote>
 
-			<figure>
-				<img src="images/photo_2.jpg" height="228" alt="Отзыв Оксаны Григорьевой о посещении игрового зала">
-				<figcaption>Оксана Григорьева</figcaption>
-			</figure>
-			<blockquote>Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! <br>
-				У нас в городе больше нет подобных заведений</blockquote>
+				<figure>
+					<img src="images/photo_2.jpg" height="228" alt="Отзыв Оксаны Григорьевой о посещении игрового зала">
+					<figcaption>Оксана Григорьева</figcaption>
+				</figure>
+				<blockquote>Были в комнате Дикий Запад, пели в караоке под Шакиру, отличный получился корпоратив! <br>
+					У нас в городе больше нет подобных заведений</blockquote>
 
-			<figure>
-				<img src="images/photo_3.jpg" height="228" alt="Отзыв Никиты Ященко о посещении игрового зала">
-				<figcaption>Никита Ященко</figcaption>
-			</figure>
+				<figure>
+					<img src="images/photo_3.jpg" height="228" alt="Отзыв Никиты Ященко о посещении игрового зала">
+					<figcaption>Никита Ященко</figcaption>
+				</figure>
 
-			<blockquote>Немного подвисала игра в VR очках, а так всё норм. Крутое оформление комнаты <br>
-				в стиле звёздных войн, попал в атмосферу космоса</blockquote>
-		</section>
-	</main>
+				<blockquote>Немного подвисала игра в VR очках, а так всё норм. Крутое оформление комнаты <br>
+					в стиле звёздных войн, попал в атмосферу космоса</blockquote>
+			</section>
+		</main>
 
 
-	<!-- // =================================footer =================================-->
+		<!-- // =================================footer =================================-->
 
-	<footer>
+		<footer>
 
-		<h2 id="contact">Контакты</h2>
-		<address>
-			<p>г. Москва ул. Аквамарина, 16</p>
-			<p>
-				<a href="tel:89509302893">8(950)930-28-93</a>
-			</p>
-			<p>
-				<a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
-			</p>
-		</address>
-		<ul>
-			<li>
-				<a href="https://vk.com/" target="_blank">Vkontakte</a>
-			</li>
+			<h2 id="contact">Контакты</h2>
+			<address>
+				<p>г. Москва ул. Аквамарина, 16</p>
+				<p>
+					<a href="tel:89509302893">8(950)930-28-93</a>
+				</p>
+				<p>
+					<a href="mailto:GameOver@gmail.com">GameOver@gmail.com</a>
+				</p>
+			</address>
+			<ul>
+				<li>
+					<a href="https://vk.com/" target="_blank">Vkontakte</a>
+				</li>
 
-			<li>
-				<a href="https://telegram.org/z/" target="_blank">Telegram</a>
-			</li>
-		</ul>
-	</footer>
+				<li>
+					<a href="https://telegram.org/z/" target="_blank">Telegram</a>
+				</li>
+			</ul>
+		</footer>
+	</div>
 </body>
 
 </html>
