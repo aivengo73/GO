@@ -1,0 +1,56 @@
+*::after {
+	box-sizing: border-box;
+}
+
+ul {
+	list-style: none;
+}
+
+a {
+	text-decoration: none;
+}
+
+a:hover {
+	color: #fff;
+}
+
+.item {
+	background-color: #fff;
+	color: #1c1a1a;
+	font-weight: 700;
+	padding: 30px 70px;
+	margin-bottom: 20px;
+}
+
+.item:nth-child(2n) {
+	background-color: #440f51;
+	color: #fff;
+}
+
+.item,
+.purple {
+	position: relative;
+}
+
+.item-span {
+	font-family: Arial, sans-serif;
+	font-size: 18px;
+}
+
+.item::after {
+	content: "";
+	width: 35px;
+	height: 35px;
+	background-image: url("../images/open-purple.svg");
+	background-size: contain;
+	position: absolute;
+	left: 990px;
+	bottom: 25px;
+	
+}
+
+.purple::after {
+	content: "";
+	background-image: url("../images/open.svg");
+	background-size: contain;
+}
