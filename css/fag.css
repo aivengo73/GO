@@ -41,7 +41,7 @@ a:hover {
 	margin-bottom: 0;
 }
 
-.item::after {
+.item:nth-child(odd)::after {
 	content: "";
 	width: 35px;
 	height: 35px;
@@ -54,7 +54,7 @@ a:hover {
 	
 }
 
-.purple::after {
+.purple:nth-child(even)::after {
 	content: "";
 	background-image: url("../images/open.svg");
 	background-size: contain;
