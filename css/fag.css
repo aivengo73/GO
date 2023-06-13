@@ -37,11 +37,16 @@ a:hover {
 	font-size: 18px;
 }
 
+.item:last-child {
+	margin-bottom: 0;
+}
+
 .item::after {
 	content: "";
 	width: 35px;
 	height: 35px;
 	background-image: url("../images/open-purple.svg");
+	background-repeat: no-repeat;
 	background-size: contain;
 	position: absolute;
 	left: 990px;
@@ -53,4 +58,5 @@ a:hover {
 	content: "";
 	background-image: url("../images/open.svg");
 	background-size: contain;
+	background-repeat: no-repeat;
 }
